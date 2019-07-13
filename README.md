@@ -66,9 +66,9 @@ Output:
 
 ### Deploy a hello, world app
 The `pod.yaml` file uses a publicly available hello-world image from Docker Hub.
-Note the hello-world service's type is ClusterIP, because this service will be proxied by Ingress. The hello-world doesn't need public access directly to it.
+Note the hello-world service's type is `ClusterIP`, because this service will be proxied by Ingress. The hello-world doesn't need public access directly to it.
 
-1. Create the hello-world resource by running the follow command:"
+1. Create the hello-world resource by running the follow command:
 ```
 $ kubectl create -f pod.yaml
 ```
