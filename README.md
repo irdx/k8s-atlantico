@@ -30,7 +30,7 @@ Output:
 
 
 ## Create an Ingress resource
-The `ingress.yaml` file is an Ingress resource that sends traffice to your service via hello-world.info.
+The `ingress.yaml` file is an Ingress resource that sends traffic to your service via hello-world.info.
 
 1. Create the Ingress resource by running the following command:
 ```
